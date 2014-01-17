@@ -2,14 +2,14 @@ Source: libnet-rabbitfoot-perl
 Section: perl
 Priority: optional
 Maintainer: Gertjan Oude Lohuis <gertjan@byte.nl>
-Build-Depends: debhelper (>= 8)
+Build-Depends: debhelper (>= 8), libanyevent-rabbitmq-perl, libcoro-perl, libmoose-perl, libmoosex-app-cmd-perl, libmoosex-configfromfile-perl, libconfig-any-perl
 Build-Depends-Indep: perl
 Standards-Version: 3.9.2
 Homepage: http://search.cpan.org/dist/Net-RabbitFoot/
 
 Package: libnet-rabbitfoot-perl
 Architecture: all
-Depends: ${misc:Depends}, ${perl:Depends}
+Depends: ${misc:Depends}, ${perl:Depends}, libanyevent-rabbitmq-perl, libcoro-perl, libmoose-perl, libmoosex-app-cmd-perl, libmoosex-configfromfile-perl, libconfig-any-perl
 Description: An Asynchronous and multi channel Perl AMQP client.
  Net::RabbitFoot is an AMQP(Advanced Message Queuing Protocol) client library,
  that is intended to allow you to interact with AMQP-compliant message
