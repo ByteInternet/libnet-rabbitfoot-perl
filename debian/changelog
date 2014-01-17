@@ -1,3 +1,9 @@
+libnet-rabbitfoot-perl (1.03-2) unstable; urgency=low
+
+  * Add dependencies
+
+ -- Gertjan Oude Lohuis <gertjan@byte.nl>  Fri, 17 Jan 2014 11:20:41 +0100
+
 libnet-rabbitfoot-perl (1.03-1) unstable; urgency=low
 
   * Initial Release.
